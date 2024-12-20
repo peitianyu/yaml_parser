@@ -1,0 +1,17 @@
+# 基础设置
+app_name: "简单测试应用" # 应用名称
+version: 1.0 # 应用版本
+
+# 服务设置
+server:
+  host: "localhost"
+  port: 8080
+
+# 数据库设置
+database:
+  host: "localhost"
+  port: [22, 23, 24]
+  name: "test_db"
+
+# 环境设置
+environment: "development" 
